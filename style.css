@@ -45,6 +45,10 @@ nav{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
   }
 
+.disclaimer{
+    display:none;
+}
+
 
 .navbar a{
     color:white !important;
@@ -119,8 +123,8 @@ nav{
 }
 
 .home-text{
-    padding: 60px;
-    font-size: min(1.6em, 4vw);
+    padding: 51px 60px 0 60px;
+    font-size: max(13px, 1.7vw);;
 }
 
 .home-img img{
@@ -151,7 +155,7 @@ nav{
 
 .mouse{
     position: relative;
-    border: 4px solid rgba(255, 255, 255, 0.4);
+    border: 4px solid rgba(255, 255, 255, 85%);
     width: 38px;
     height: 65px;
     border-radius: 85px;
@@ -160,7 +164,7 @@ nav{
 
 .wheel{
     position: absolute;
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 85%);
     margin: auto;
     width: 5px;
     height: 20px;
@@ -349,6 +353,10 @@ canvas{
 /******** Projetos FIM ***********/
 
 #contato{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .icon-contato{
@@ -371,12 +379,7 @@ canvas{
   }
   
   
-.card-contato{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 2%);
-}
+
 
 
 .a{
